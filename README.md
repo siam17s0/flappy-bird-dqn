@@ -55,7 +55,15 @@ Tech Stack
 - NumPy
 
 ## Project Structure
-. ├── train.py / main script ├── dqn.py # Neural Network model ├── experience_replay.py ├── parameters.yaml # Hyperparameters ├── runs/ │ ├── *.pt # Saved models │ └── *.log # Training logs ├── README.md
+.
+├── agent.py
+├── dqn.py # Neural Network model 
+├── experience_replay.py
+├── parameters.yaml # Hyperparameters 
+├── runs/ │ 
+├── *.pt # Saved models
+│ └── *.log # Training logs 
+├── README.md
 
 
 # Installation
